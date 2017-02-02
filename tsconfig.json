@@ -9,6 +9,7 @@
     "removeComments": false,
     "noImplicitAny": false,
     "pretty": true,
-    "outDir": "./lib"
+    "outDir": "./lib",
+    "rootDir": "./src"
   }
 }
