@@ -1,0 +1,14 @@
+{
+  "name": "typescript-patterns",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
