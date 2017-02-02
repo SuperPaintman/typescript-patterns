@@ -2,7 +2,7 @@
 
 /**
  * Cache for singletone classes
- * @type {FunctionConstructor[]}
+ * @type {Function[]}
  */
 const singletones: Function[] = [];
 
