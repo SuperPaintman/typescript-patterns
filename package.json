@@ -8,6 +8,11 @@
     "test": "./node_modules/.bin/mocha --opts ./mocha.opts ./lib/**/test.js",
     "test:watch": "./node_modules/.bin/mocha --opts ./mocha.opts --watch ./lib/**/test.js"
   },
+  "author": {
+    "name": "SuperPaintman",
+    "email": "SuperPaintmanDeveloper@gmail.com",
+    "url": "https://superpaintman.com/"
+  },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
@@ -17,5 +22,9 @@
     "chai": "3.5.0",
     "mocha": "3.2.0",
     "source-map-support": "0.4.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperPaintman/typescript-patterns.git"
   }
 }
