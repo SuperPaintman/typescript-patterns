@@ -4,11 +4,18 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
-    "build:watch": "tsc -w"
+    "build:watch": "tsc -w",
+    "test": "./node_modules/.bin/mocha --opts ./mocha.opts ./lib/**/test.js",
+    "test:watch": "./node_modules/.bin/mocha --opts ./mocha.opts --watch ./lib/**/test.js"
   },
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@types/chai": "3.4.34",
+    "@types/mocha": "2.2.38",
+    "@types/node": "7.0.4",
+    "chai": "3.5.0",
+    "mocha": "3.2.0",
+    "source-map-support": "0.4.11"
   }
 }
